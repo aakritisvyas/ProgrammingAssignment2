@@ -35,3 +35,15 @@ cacheSolve <- function(x, ...) {
         x$setinv(m)
         m
 }
+
+# Potential Entries
+# a<- makeCacheMatrix(matrix(1:4,2,2))
+# [,1] [,2]
+# [1,]   -2  1.5
+# [2,]    1 -0.5
+
+# # b<- makeCacheMatrix(matrix(rnorm(n=9),3,3))
+# [,1]       [,2]        [,3]
+# [1,] -0.2840163 -3.7511456 -1.02852273
+# [2,] -0.3923121  0.9376273  0.01711668
+# [3,] -0.2475683 -0.3430920  0.33722210
